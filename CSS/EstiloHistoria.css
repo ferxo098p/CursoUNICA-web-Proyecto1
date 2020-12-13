@@ -1,0 +1,93 @@
+html, body{
+	height: 100%;
+}
+body{
+	background-image: url("../IMAGES/Fondo.jpg");
+	background-size: 1600px 1000px;
+}
+#contenedor{
+	height: 130%
+}
+#header{
+	text-align: right;
+	color: white;
+	height: 6%;
+}
+#nav{
+	width: 10%;
+	height: 40%;
+	margin-top: 70px; 
+	float: left; 
+}
+#home{
+	width: 85%;
+	height: 20%;
+}
+#homi{
+	width: 120px;
+	height: 80px;
+}
+.navegacion{
+	width: 85%;
+	height: 10%;
+	margin-top: 8px;
+}
+.pagina{
+	color: white;
+}
+#buscar{
+	background-color: white;
+	width: 85%;
+	height: 7%;
+	margin-top: 25px;
+	margin-left: 5px;
+}
+#section{
+	height: 100%;
+}
+#article{
+	margin-top: 30px;
+	height: 95%;
+}
+#imagen1{
+	width: 320px;
+	height: 225px;
+	float: right;
+}
+#imagen2{
+	width: 180px;
+	height: 250px;
+	float: left;
+}
+#imagen3{
+	width: 300px;
+	height: 240px;
+	float: left;
+}
+#titulo{
+	color: white;
+}
+.parrafo{
+	text-align: justify;
+	color: white;
+}
+#refTitulo{
+	color: white;
+}
+#referencias{
+	color: rgb(183, 224, 14);
+}
+#footer{
+	height: 4%;
+	text-align: center;
+	color: white;
+}
+.estructura{
+	position: relative;
+	width: 65%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	margin-right: 280px;
+	float: right;
+}

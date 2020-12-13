@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contacto</title>
+		<meta charset="utf-8">
+	</head>
+	<link rel="stylesheet" type="text/css" href="CSS/EstiloFormulario.css">
+		<body>
+				<div id="contenedor">
+					<div id="header" class="estructura">THE KILLERS</div>
+					<div id="nav">
+						<!--NAV-->
+						<div id="home">
+							<a href="Home.html"><img src="IMAGES/HomeGood.png" id="homi"></a>
+						</div>
+						<div class="navegacion">
+							<a href="Discografia.html" class="pagina">DISCOGRAFÍA</a>
+						</div>
+						<div class="navegacion">
+							<a href="Historia.html" class="pagina">HISTORIA</a>
+						</div>
+						<div class="navegacion">
+							<a href="Multimedia.html" class="pagina">MULTIMEDIA</a>
+						</div>
+						<div class="navegacion">
+							<a href="Contacto.html" class="pagina">CONTACTO</a>
+						</div>
+						<div id="buscar">
+							<select name="options" form="carform">
+								<option value="buscador">Buscar</option>
+								<option value="HotFuss">Hot Fuss</option>
+								<option value="SamsTown">Sam's Town</option>
+								<option value="brightside">Mr. Brightside</option>
+							</select>
+						</div>
+					</div>
+					<div id="section" class="estructura">
+						<!--SECTION-->
+						<div id="article">
+							<!--ARTICLE-->
+							<div id="registro">Registro</div>
+							<br/>
+							<form>
+									<table id="formulario">
+										<tr>
+											<td><label for="text_name">Nombre:</label></td>
+											<td>
+												<input type="text" id="text_name" name="text_name" required minlength="10" maxlength="20"/>
+											</td>
+											<td><label for="apellidos">Apellidos:</label></td>
+											<td>
+												<input type="text" name="text_apellidos" required minlength="10" maxlength="20"/>
+											</td>
+											<td><label for="edad">Edad:</label></td>
+											<td>
+												<input type="number" name="caja_edad" required min="8" max="100"/>
+											</td>
+										</tr>
+										<tr>
+											<td><label for="pass">Contraseña:</label></td>
+											<td>
+												<input type="password" name="text_password" required minlength="10" maxlength="20"/>
+											</td>
+											<td><label for="pass2">Repite la contraseña:</label></td>
+											<td>
+												<input type="password" name="text_password2" required minlength="10" maxlength="20"/>
+											</td>
+										</tr>
+										<tr>
+											<td><label for="correo">Correo:</label></td>
+											<td>
+												<input type="email" name="correo" required minlength="10" maxlength="20"/>
+											</td>
+										</tr>
+										<tr>
+											<td><label for="pais">País:</label></td>
+											<!--<td><input type="select" name="pais"></td>-->
+											<td>
+												<select name="paises" form="carform">
+													  <option value="mexico">México</option>
+													  <option value="estadosUnidos">Estados Unidos</option>
+													  <option value="canada">Canada</option>
+													  <option value="europa">Europa</option>
+												</select>
+											</td>
+										</tr>
+										<tr>
+											<td><label for="text_area">Sobre ti:</label></td>
+											<td>
+												<textarea id="sobreti"></textarea>
+											</td>
+										</tr>
+										<tr>
+											<td><input type="reset" name="Reseteáme"/></td>
+											<td><input type="submit" name="Envíar todo"/></td>
+										</tr>
+									</table>
+								</form>		
+						</div>
+					</div>			
+					<div id="footer" class="estructura">
+						<!--FOOTER-->
+						</br>
+						</br>I got a soul but I'm not a soldier
+					</div>
+				</div>
+		</body>
+</html>

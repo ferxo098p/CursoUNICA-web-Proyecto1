@@ -1,0 +1,86 @@
+html, body{
+	height: 100%;
+}
+body{
+	background-image: url("../IMAGES/Fondo.jpg");
+	background-size: 1600px 1000px;
+}
+#contenedor{
+	height: 130%
+}
+#header{
+	text-align: right;
+	color: white;
+	height: 8%;
+}
+#nav{
+	width: 10%;
+	height: 40%;
+	margin-top: 70px; 
+	float: left; 
+}
+#home{
+	width: 85%;
+	height: 20%;
+}
+#homi{
+	width: 120px;
+	height: 80px;
+}
+.navegacion{
+	width: 85%;
+	height: 10%;
+	margin-top: 8px;
+}
+.pagina{
+	color: white;
+}
+#buscar{
+	background-color: white;
+	width: 85%;
+	height: 7%;
+	margin-top: 25px;
+	margin-left: 5px;
+}
+#section{
+	height: 50%;
+}
+#article{
+	margin-top: 70px;
+	height: 90%;
+}
+.album{
+	margin-left: 180px;
+	color: white;
+}
+.tituloAlbum{
+	color: white;
+	text-align: right;
+}
+.numeroCancion{
+	text-align: center;
+}
+#caratula{
+	width: 270px;
+}
+#c1{
+	width: 280px;
+	height: 280px;
+}
+#samsTown{
+	margin-top: 50px;
+}
+#footer{
+	height: 6%;
+	text-align: center;
+	color: white;
+}
+.estructura{
+	position: relative;
+	width: 65%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	margin-right: 280px;
+	float: right;
+}
